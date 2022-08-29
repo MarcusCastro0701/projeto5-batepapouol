@@ -1,0 +1,213 @@
+body{
+    box-sizing: border-box;
+    
+}
+
+.none{
+    display:none;
+}
+
+.engloba-sidebar{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 100%;
+    z-index: 0;
+}
+
+.engloba-fundo{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.elden-fundo{
+    
+    left: 30px;
+    top: 280px;
+    width: 170px;
+    height: 170px;
+    opacity: 50%;
+}
+
+.titulo-fundo{
+    
+    left: 40px;
+    top: 250px;
+    font-size: 150%;
+    opacity: 50%;
+    margin-bottom: 10px;
+}
+
+.sidebar{
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    right: 0;
+    top: 0;
+    opacity: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 190px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.pessoas-cima{
+    position: absolute;
+    top: 50px;
+    right: 57px;
+    width: 55px;
+    height: 55px;
+}
+
+.rosa{background-color: lightpink;}
+
+.side-options{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 150%;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 22px;
+}
+
+.engloba-publico{
+    display: flex;
+}
+
+.publico{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 110%;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.engloba-reservadamente{
+    display: flex;
+}
+
+.reservadamente{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100%;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.check{
+    color: green;
+    margin-left: 4px;
+}
+
+#mensagem-baixo{
+    padding-left: 6px;
+    width: 100%;
+    font-size: 30px;
+    border: none;
+}
+
+.topo{
+    position: absolute;
+    z-index: 1;
+    top:0;
+    left: 0;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.elden-ring{
+    width: 75px;
+    height: 75px;
+    margin-left: 20px;
+    
+    top: 15px;
+    left: 15px;
+}
+
+.pessoas{
+    width: 56px;
+    height: 56px;
+    margin-right: 30px;
+}
+
+.meio{
+    margin-top:101px;
+    display: flex;
+    flex-direction: column;
+    height: 484px;
+    overflow: scroll;
+    background-color: #f8f5f5;
+    padding-top: 10px;
+    
+}
+
+.mensagem{
+    width: 100%;
+    background-color: white;
+    font-family: 'Roboto';
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 19px;
+    padding: 5px 0;
+    margin-bottom: 5px;
+}
+
+.cinza{
+    background-color: #dcdcdc;
+}
+
+.baixo {
+    
+    position: absolute;
+    z-index: 1000;
+    bottom:0;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+    
+}
+
+.icone-baixo{
+    width: 82px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 90px;
+   
+}
+
+.botao-enviar{
+    height: 26px;
+    width: 26px;
+    cursor: pointer;
+}
+

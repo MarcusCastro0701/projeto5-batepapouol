@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resetBATEPAPO.css">
+    <link rel="stylesheet" href="batepapoESTILO.css">
+    <link rel="stylesheet" href="imagens">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "engloba-sidebar none">
+        <div class = "engloba-fundo">
+            <p class = "titulo-fundo">Bate-papo do</p>
+            <img class = "elden-fundo" src = "imagens/elden-ring.png">
+        </div>
+        <div class = "sidebar">
+            <ion-icon onclick = "sidebar()" class = "pessoas-cima" name="people"></ion-icon>
+            <p class = "side-options">Escolha a visibilidade</p>
+            <div class = "engloba-publico"> <ion-icon name="lock-open"></ion-icon> <p onclick = 'publico()' class = "publico">Público</p><ion-icon class = "check checkp" name="checkmark-circle"></ion-icon></div>
+            <div class = "engloba-reservadamente"><ion-icon name="lock-closed"></ion-icon><p onclick = 'reservadamente()' class = "reservadamente">Reservadamente</p><ion-icon class = "check checkr none" name="checkmark-circle"></ion-icon></div>
+        </div>
+    </div>
+
+    
+    <div class = "div-mae">
+
+        <div class="topo">
+
+                <img class = "elden-ring" src = "imagens/elden-ring.png">
+                <div class = "icone-cima">
+                    <ion-icon onclick = "sidebar()" class = "pessoas" name="people"></ion-icon>
+                </div>
+
+        </div>
+
+        <div class = "meio">
+
+            
+
+        </div>
+
+        
+
+        <div class="baixo">
+
+            <form class = "form-input">
+
+                <input type="text" id = 'mensagem-baixo' placeholder = "Escreva aqui..." autocomplete = "off">
+
+            </form>
+
+            <div class = "icone-baixo">
+                <ion-icon onclick = 'enviandoMensagem()' class = 'botao-enviar' name="paper-plane-outline"></ion-icon>
+            </div>
+
+
+            
+            
+        </div>
+
+
+
+
+
+
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="batepapo.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    
+</body>
+</html>
